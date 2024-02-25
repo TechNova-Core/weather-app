@@ -3,7 +3,7 @@ import { Component, lazy, Suspense, useContext, useEffect, useRef } from 'react'
 import {Route, Routes} from 'react-router-dom';
 import { Loader } from './shared/controls/Loader';
 import { LanguageProvider } from './shared/i18n/LanguageContext';
-import { Constants as AppConstants } from './shared/resources/Constants';
+import { Constants as AppConstants } from 'shared/resources/Constants';
 import AuthRoute from './shared/system-controls/route/AuthRoute';
 // import SessionProvider, { SessionContext } from './shared/system-controls/session/SessionProvider';
 import SessionProvider from './shared/system-controls/session/SessionProvider';
