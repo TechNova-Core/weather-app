@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Segoe';
+  src: local('Segoe'), url(../public/assets/fonts/Segoe-UI/Segoe\ UI.ttf) format('truetype');
+}
+/* @font-face {
+  font-family: 'Segoe';
+  src: url(../public/assets/fonts/Segoe-UI/Segoe\ UI\ Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Segoe';
+  src: url(../public/assets/fonts/Segoe-UI/Segoe\ UI\ Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Segoe';
+  src:url(../public/assets/fonts/Segoe-UI/Segoe\ UI\ Bold\ Italic.ttf);
+  font-style: italic;
+  font-weight: bold;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
