@@ -7,6 +7,8 @@ Using **tailwind css** and **react js**, students will gain practical insights i
 
 Explore the project to enhance your skills in designing, coding, and testing software applications.
 
+[Figma Link](https://www.figma.com/file/WQr0MB4Rojt7qaENgX1lZV/weather-application?type=design&node-id=0-1&mode=design&t=sX5B71z7eo5RkALe-0)
+
 
 ## Available Scripts
 
