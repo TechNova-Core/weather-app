@@ -4,10 +4,6 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    spacing: {
-      6: '32px',
-      7: '40px'
-    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -56,6 +52,10 @@ module.exports = {
       }
     },
     extend: {
+      spacing: {
+        6: '32px',
+        7: '40px'
+      },
       fontFamily: {
         'segoe': [' ', 'sans-serif'],
       },
@@ -68,9 +68,9 @@ module.exports = {
         'h3':'20px'
       },
       borderRadius: {
-        'rounded-1' : '10px',
-        'rounded-2' : '15px',
-        'rounded-3' : '20px'
+        '1' : '10px',
+        '2' : '15px',
+        '3' : '20px'
       }
     },
   },

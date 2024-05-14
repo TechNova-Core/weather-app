@@ -40,6 +40,9 @@ class ErrorBoundary extends Component {
 const TestLazy = lazy(() => import('./main/views/TestView'))
 const TestView = () => <Suspense fallback={<Loader loading />}><TestLazy /></Suspense>
 
+const SystemDesignLazy = lazy(() => import('../src/main/panels/SystemDesign'))
+const SystemDesignView = () => <Suspense fallback={<Loader loading />}><SystemDesignLazy /></Suspense>
+
 
 //--------------------------------------------------------------------------
 const Main = () => {
@@ -85,6 +88,7 @@ const Main = () => {
                     <Route index element={<TestView />} />
                 </Route>
             </Route>
+            <Route exact path='/system-design' element={<SystemDesignView/>}></Route>
         </Routes>
     </>)
 }
