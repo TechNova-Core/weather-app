@@ -57,15 +57,28 @@ module.exports = {
         7: '40px'
       },
       fontFamily: {
-        'segoe': [' ', 'sans-serif'],
+        // 'segoe': [' ', 'sans-serif'],
+        sans: ['segoe', 'sans-serif'],
       },
       fontSize: {
-        'body-1': '12px',
-        'body': '14px',
-        'body-3': '16px',
-        'h1':'32px',
-        'h2':'24px',
-        'h3':'20px'
+        'body-1': ['12px',{
+          fontWeight: 600,
+        }],
+        'body': ['14px',{
+          fontWeight: 600,
+        }],
+        'body-3': ['16px',{
+          fontWeight: 600,
+        }],
+        'h1':['32px',{
+          fontWeight: 600,
+        }],
+        'h2':['24px',{
+          fontWeight: 600,
+        }],
+        'h3':['20px',{
+          fontWeight: 600,
+        }],
       },
       borderRadius: {
         '1' : '10px',

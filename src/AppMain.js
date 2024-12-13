@@ -43,6 +43,9 @@ const TestView = () => <Suspense fallback={<Loader loading />}><TestLazy /></Sus
 const SystemDesignLazy = lazy(() => import('../src/main/panels/SystemDesign'))
 const SystemDesignView = () => <Suspense fallback={<Loader loading />}><SystemDesignLazy /></Suspense>
 
+const LayoutLazy = lazy(() => import('../src/main/panels/Layout'))
+const LayoutView = () => <Suspense fallback={<Loader loading />}><LayoutLazy /></Suspense>
+
 
 //--------------------------------------------------------------------------
 const Main = () => {
@@ -81,7 +84,7 @@ const Main = () => {
 
     return (<>
         <Routes>
-            <Route exact path='/' element={<TestView />} />
+            <Route exact path='/' element={<LayoutView />} />
             <Route exact path='/test'>
                 <Route exact path='1' element={<TestView />} />
                 <Route exact path='2' element={<AuthRoute isAuthenticated={true} />}>
